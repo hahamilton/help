@@ -17,11 +17,14 @@ In this example, the parser locates URLs by searching through a site's `sitemap.
 3. Create a reference to your site.
 
 		tree = sitemap_tree_for_homepage('https://mywebsite.com')
-4. Start a for loop that looks for each page on your site. 
+4. Start a for loop that looks for each page on your site.
+
 		for page in tree.all_pages():
 5. Use the following regular expression to only see the site's URLs (by default, the parser returns more data than just URLs).
-		 data = re.findall("(https:\/\/.+)", page)
+
+		data = re.findall("(https:\/\/.+)", page)
 6. Nest another for loop that lists only the URLs in the output.
+
 		for url in data:
 			print(url)
 7. Run the script.
