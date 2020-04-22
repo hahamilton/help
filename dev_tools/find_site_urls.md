@@ -30,4 +30,4 @@ In this example, the parser locates URLs by searching through a site's `sitemap.
 7. Run the script.
 	Your site's URLs display in the output. 
 
-> To make the output easier to share, consider adding to the script so that the output writes to a commonly used file format (such as CSV). 
+> To make the output easier to share, consider writing the output to a commonly used file format (such as CSV). 
