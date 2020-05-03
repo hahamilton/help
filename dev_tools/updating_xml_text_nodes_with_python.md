@@ -33,7 +33,7 @@ The following example Python script parses the previously-referenced XML and upd
 > __Note:__ Remember, the XPath expression `//` used in the following steps is just an example and may not properly parse your XML document's structure.
 
 1. In a text editor, create a `.py` file (for example, `update_text.py`) and save it to the same location as the XML file.
-2. Load the lxml library.  
+2. Load the `lxml` library.  
 
 		import lxml.etree as et
 3. Store the root XML element so your script can read the entire contents of the file.
